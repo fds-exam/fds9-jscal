@@ -36,7 +36,10 @@ button {
   font-size: 4em;
   grid-area: display;
   line-height: 1.6;
-  direction: rtl;
+  text-align: right; 
+  overflow-x: auto;
+  overflow-y: hidden;
+  /* direction: rtl; */
 }
 
 .op {
